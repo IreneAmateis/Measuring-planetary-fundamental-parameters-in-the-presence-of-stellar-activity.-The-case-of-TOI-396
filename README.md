@@ -1,0 +1,16 @@
+# Measuring planetary fundamental-parameters in the presence of stellar activity. The case of TOI-396
+The passage of a planet in front of its host star provides us with one of the two fundamental ingredients needed to investigate its nature: the planetary radius. The fraction of light occulted by a planet during a transit is indeed proportional to its size, being about 1% for a Jupiter-sized object and 0.01% for an Earth-sized planet transiting a Sun-like star. The second fundamental quantity, the planetary mass, can be obtained by observing the wobble of the star around the centre of mass, i.e., by measuring the periodic change in the stellar velocity component along the line-of-sight (the so-called ”radial velocity”) while the star revolves about the centre of mass. This requires the observations of the tiny Doppler shifts of  the stellar spectral lines induced by the presence of an orbiting companion.
+
+The knowledge of masses and radii is of paramount importance for exoplanetology, as it allows us to distinguish between gas giants (ρ ≃ 1 g cm−3), ice giants (ρ ≃ 1–3 g cm−3), and terrestrial worlds with or without atmospheric envelopes (ρ > 3 g cm−3), enabling the study of the internal structure and composition of planets and therefore providing important hints as to planet formation and evolution.
+
+However, stellar magnetic activity (photospheric spots, plages, and flares) coupled with stellar rotation, can also induce quasi-periodic radial velocity variations that can have magnitudes greater than the reflex motion induced by an orbiting planet, hampering its mass determination, or even preventing its detection.
+
+In the course of my MSc thesis work, I focused on the determination of the planetary fundamental parameters in the presence of stellar magnetic activity. Specifically, I characterised the planetary system orbiting the naked-eye star TOI-396 (V=6), a system known to host 3 transiting small planets discovered by NASA’s TESS space mission (Vanderburg et al., 2019). I measured the radii, masses, bulk densities, and orbital parameters of the three planets, performing a joint analysis of the TESS transit light curves and the radial velocity measurements collected with the high-precision HARPS spectrograph. I disentangled the activity-induced radial velocity signals from the genuine planetary motions using a novel technique (Simola et al., 2019), which implements a skew-normal fit to a proxy of the average stellar line profile, the so-called cross correlation
+function. I also detrended the radial velocity time-series using the ”break-point” method applied to ancillary activity indicators (Simola et al., 2022). I finally utilised the code developed by Bonfanti & Gillon (2020) to derive the posterior distributions of the model parameters, using Markov chain Monte Carlo methods.
+
+Nota bene
+
+• The work presented in my MSc thesis work was carried out as part of a five month traineeship at the Institut f ̈ur Weltraumforschung (IWF) in Graz, Austria, under the supervision of Dr. Andrea Bonfanti. I was awarded a scholarship by the ”Erasmus+ for traineeship” project at the University of Turin.
+
+• The characterization of the TOI-396 planetary system presented in this work will be published in a refereed paper, which will include Irene Amateis as co-author.
+  
